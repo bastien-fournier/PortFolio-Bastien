@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Freeman&display=swap");
+
+:root {
+  --primary-background-color: #11131f;
+  --second-background-color: #1d2e62;
+  --font-family-title: "Freeman";
+  --font-color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--primary-background-color);
+}

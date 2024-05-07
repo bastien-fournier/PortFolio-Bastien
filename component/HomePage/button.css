@@ -1,0 +1,15 @@
+* {
+  font-family: var(--font-family-title);
+}
+
+.div-button {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.button {
+  background-color: var(--second-background-color);
+  border-radius: 1rem;
+  padding: 1rem;
+  border: none;
+}
