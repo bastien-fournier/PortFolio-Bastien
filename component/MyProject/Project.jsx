@@ -1,5 +1,14 @@
+import Title from "../MyProject/Title";
+import EightBall from "./EightBall";
+import PublicHolidays from "./PublicHolidays";
 function Project() {
-  return <h1>Hello from About</h1>;
+  return (
+    <>
+      <Title />
+      <EightBall />
+      <PublicHolidays />
+    </>
+  );
 }
 
 export default Project;

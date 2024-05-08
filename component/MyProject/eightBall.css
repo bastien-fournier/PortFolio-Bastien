@@ -1,0 +1,15 @@
+.divEightBall {
+  background-color: var(--second-background-color);
+  border-radius: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2rem;
+  padding: 2rem;
+}
+
+.pics {
+  height: 15rem;
+  padding-top: 2rem;
+}
