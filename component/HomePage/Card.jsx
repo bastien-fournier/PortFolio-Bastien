@@ -7,7 +7,7 @@ import Linkedin from "../../assets/linkedin.svg";
 function About() {
   return (
     <div className="divClass">
-      <h1>Bastien Founier</h1>
+      <h1>Bastien Fournier</h1>
       <h2>Développeur Web</h2>
       <img className="img" src={ImgProfil} alt="Photo Bastien" />
       <div className="div-link">

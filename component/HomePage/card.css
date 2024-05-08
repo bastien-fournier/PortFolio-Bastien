@@ -28,12 +28,13 @@
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
-  padding-top: 2rem;
 }
 
 .logo-img {
-  height: 4rem;
+  height: 2rem;
   cursor: pointer;
+  margin: 3rem;
+  margin-bottom: 0rem;
 }
 
 .button-link:hover {
