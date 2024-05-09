@@ -8,3 +8,12 @@
   margin: 2rem;
   padding: 2rem;
 }
+
+.skilCard {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+}
+
+.pic-back-end {
+  height: 6rem;
+}

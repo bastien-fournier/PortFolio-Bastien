@@ -8,12 +8,11 @@ function CardSkillsBackEnd() {
       <h4>Back-End</h4>
       <div>
         <span className="skillCard">
-          <img src={Node} alt="Logo Node" />
+          <img className="pic-back-end" src={Node} alt="Logo Node" />
         </span>
         <span className="skillCard">
-          <img src={Express} alt="Logo Express" />
+          <img className="pic-back-end" src={Express} alt="Logo Express" />
         </span>
-        <span className="skillCard"></span>
       </div>
     </div>
   );
