@@ -13,6 +13,8 @@ p {
   margin-bottom: 1rem;
 }
 
-button {
+.footer-button {
+  background: none;
   border: none;
+  cursor: pointer;
 }

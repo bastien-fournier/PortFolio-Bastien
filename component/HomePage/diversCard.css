@@ -1,10 +1,25 @@
 .div {
   background-color: var(--second-background-color);
-  border-radius: 3rem;
-  display: flex;
+  border-radius: 1rem;
+  /* display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: column; */
   margin: 2rem;
   padding: 2rem;
+}
+
+.span-divers {
+  display: flex;
+  justify-content: center;
+}
+
+.div-divers {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 1rem;
+}
+
+.img-divers {
+  height: 4rem;
 }

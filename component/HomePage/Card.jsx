@@ -2,7 +2,7 @@ import "./../HomePage/card.css";
 
 import ImgProfil from "./../../assets/profile-pic.png";
 import Github from "../../assets/github.svg";
-import Linkedin from "../../assets/linkedin.svg";
+import Linkedin from "../../assets/linkedin.png";
 
 function About() {
   return (
