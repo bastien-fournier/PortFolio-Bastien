@@ -1,6 +1,6 @@
 .div-classe {
   background-color: var(--second-background-color);
-  border-radius: 3rem;
+  border-radius: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,5 +17,9 @@
   display: grid;
   grid-template-columns: 2fr 2fr;
   gap: 20px;
-  padding-top: 2rem;
+  padding-top: 1rem;
+}
+
+.logo-front-end {
+  height: 4rem;
 }

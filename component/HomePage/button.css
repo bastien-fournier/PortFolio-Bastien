@@ -15,14 +15,10 @@
   cursor: pointer;
 }
 
+.button:hover {
+  transform: scale(1.1);
+}
+
 a {
   text-decoration: none;
-}
-
-.button:hover {
-  color: blue;
-}
-
-a:hover {
-  color: blue;
 }

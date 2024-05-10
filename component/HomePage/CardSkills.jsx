@@ -15,16 +15,20 @@ function CardSkills() {
         <h4>Front-End</h4>
         <div className="skill-cards">
           <span className="skill-card">
-            <img src={Html} alt="Logo HTML" />
+            <img className="logo-front-end" src={Html} alt="Logo HTML" />
           </span>
           <span className="skill-card">
-            <img src={Css} alt="Logo CSS" />
+            <img className="logo-front-end" src={Css} alt="Logo CSS" />
           </span>
           <span className="skill-card">
-            <img src={Javascript} alt="Logo JavaScript" />
+            <img
+              className="logo-front-end"
+              src={Javascript}
+              alt="Logo JavaScript"
+            />
           </span>
           <span className="skill-card">
-            <img src={LogoReact} alt="Logo React" />
+            <img className="logo-front-end" src={LogoReact} alt="Logo React" />
           </span>
         </div>
       </div>

@@ -4,17 +4,21 @@ import Express from "../../assets/express.svg";
 
 function CardSkillsBackEnd() {
   return (
-    <div className="skillCards">
-      <h4>Back-End</h4>
-      <div>
-        <span className="skillCard">
-          <img className="pic-back-end" src={Node} alt="Logo Node" />
+    <>
+      <div className="skillCards">
+        <span className="span-title">
+          <h4>Back-End</h4>
         </span>
-        <span className="skillCard">
-          <img className="pic-back-end" src={Express} alt="Logo Express" />
-        </span>
+        <div className="div-skill-card">
+          <span className="skillCard">
+            <img className="pic-back-end" src={Node} alt="Logo Node" />
+          </span>
+          <span className="skillCard">
+            <img className="pic-back-end" src={Express} alt="Logo Express" />
+          </span>
+        </div>
       </div>
-    </div>
+    </>
   );
 }
 

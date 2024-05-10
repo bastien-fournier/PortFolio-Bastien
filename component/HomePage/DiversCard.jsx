@@ -5,16 +5,16 @@ import "../HomePage/diversCard.css";
 function DiversCard() {
   return (
     <div className="div">
-      <h4>Divers</h4>
-      <div>
+      <span className="span-divers">
+        <h4>Divers</h4>
+      </span>
+      <div className="div-divers">
         <span>
-          <img src={GitHub} alt="Logo GitHub" />
+          <img className="img-divers" src={GitHub} alt="Logo GitHub" />
         </span>
         <span>
-          <img src={Figma} alt="Logo Figma" />
+          <img className="img-divers" src={Figma} alt="Logo Figma" />
         </span>
-        <span></span>
-        <span></span>
       </div>
     </div>
   );
