@@ -1,10 +1,21 @@
 .skillCards {
   background-color: var(--second-background-color);
-  border-radius: 3rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  border-radius: 1rem;
   margin: 2rem;
   padding: 2rem;
+}
+
+.span-title {
+  display: flex;
+  justify-content: center;
+}
+
+.pic-back-end {
+  height: 4rem;
+}
+
+.div-skill-card {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 1rem;
 }

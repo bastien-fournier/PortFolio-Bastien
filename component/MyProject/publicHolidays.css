@@ -1,6 +1,6 @@
 .div-public-holidays {
   background-color: var(--second-background-color);
-  border-radius: 3rem;
+  border-radius: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
